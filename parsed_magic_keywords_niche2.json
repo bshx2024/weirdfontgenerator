@@ -1,0 +1,794 @@
+[
+  {
+    "keyword": "language translator",
+    "intent": "Informational",
+    "volume": 49500,
+    "kd": 100,
+    "cpc": 1.14,
+    "competition": 0.24
+  },
+  {
+    "keyword": "italian language translation english",
+    "intent": "Informational",
+    "volume": 33100,
+    "kd": 50,
+    "cpc": 1.15,
+    "competition": 0.09
+  },
+  {
+    "keyword": "translate the correct sentences from exercise 2 into your language",
+    "intent": "Informational",
+    "volume": 27100,
+    "kd": 27,
+    "cpc": 0.0,
+    "competition": 0.33
+  },
+  {
+    "keyword": "language language translator",
+    "intent": "Informational",
+    "volume": 22200,
+    "kd": 100,
+    "cpc": 1.14,
+    "competition": 0.24
+  },
+  {
+    "keyword": "english language translate to korean",
+    "intent": "Informational",
+    "volume": 18100,
+    "kd": 50,
+    "cpc": 1.53,
+    "competition": 0.04
+  },
+  {
+    "keyword": "english to italian language translator",
+    "intent": "Informational",
+    "volume": 18100,
+    "kd": 46,
+    "cpc": 1.43,
+    "competition": 0.05
+  },
+  {
+    "keyword": "german to english language translation",
+    "intent": "Informational",
+    "volume": 18100,
+    "kd": 74,
+    "cpc": 1.25,
+    "competition": 0.05
+  },
+  {
+    "keyword": "google translate hindi to english language",
+    "intent": "Informational",
+    "volume": 18100,
+    "kd": 78,
+    "cpc": 1.1,
+    "competition": 0.33
+  },
+  {
+    "keyword": "portugal language translation to english",
+    "intent": "Informational",
+    "volume": 18100,
+    "kd": 51,
+    "cpc": 1.28,
+    "competition": 0.08
+  },
+  {
+    "keyword": "russian language translation english",
+    "intent": "Informational",
+    "volume": 18100,
+    "kd": 64,
+    "cpc": 1.25,
+    "competition": 0.1
+  },
+  {
+    "keyword": "translate latin language",
+    "intent": "Informational",
+    "volume": 18100,
+    "kd": 46,
+    "cpc": 1.59,
+    "competition": 0.04
+  },
+  {
+    "keyword": "translate spanish language",
+    "intent": "Informational",
+    "volume": 18100,
+    "kd": 53,
+    "cpc": 1.12,
+    "competition": 0.09
+  },
+  {
+    "keyword": "binary language translation",
+    "intent": "Informational",
+    "volume": 14800,
+    "kd": 56,
+    "cpc": 6.66,
+    "competition": 0.33
+  },
+  {
+    "keyword": "english language translation urdu",
+    "intent": "Informational",
+    "volume": 14800,
+    "kd": 58,
+    "cpc": 2.54,
+    "competition": 0.04
+  },
+  {
+    "keyword": "english to japanese language translator",
+    "intent": "Informational",
+    "volume": 14800,
+    "kd": 58,
+    "cpc": 1.4,
+    "competition": 0.04
+  },
+  {
+    "keyword": "google translate chinese language",
+    "intent": "Navigational",
+    "volume": 14800,
+    "kd": 40,
+    "cpc": 1.17,
+    "competition": 0.01
+  },
+  {
+    "keyword": "russian language to english translation",
+    "intent": "Informational",
+    "volume": 14800,
+    "kd": 52,
+    "cpc": 1.38,
+    "competition": 0.07
+  },
+  {
+    "keyword": "translate english language to hindi",
+    "intent": "Informational",
+    "volume": 14800,
+    "kd": 47,
+    "cpc": 1.71,
+    "competition": 0.33
+  },
+  {
+    "keyword": "english language translate to tagalog",
+    "intent": "Informational",
+    "volume": 12100,
+    "kd": 47,
+    "cpc": 1.2,
+    "competition": 0.01
+  },
+  {
+    "keyword": "english to burmese language translation",
+    "intent": "Informational",
+    "volume": 12100,
+    "kd": 36,
+    "cpc": 1.64,
+    "competition": 0.03
+  },
+  {
+    "keyword": "sign language translator",
+    "intent": "Informational",
+    "volume": 12100,
+    "kd": 51,
+    "cpc": 1.15,
+    "competition": 0.05
+  },
+  {
+    "keyword": "spanish language translator google",
+    "intent": "Informational",
+    "volume": 12100,
+    "kd": 92,
+    "cpc": 1.57,
+    "competition": 0.01
+  },
+  {
+    "keyword": "english language to tamil language translation",
+    "intent": "Informational",
+    "volume": 9900,
+    "kd": 43,
+    "cpc": 2.22,
+    "competition": 0.01
+  },
+  {
+    "keyword": "english to persian language translator",
+    "intent": "Informational",
+    "volume": 9900,
+    "kd": 46,
+    "cpc": 1.26,
+    "competition": 0.04
+  },
+  {
+    "keyword": "talking translator - languages",
+    "intent": "Informational + Transactional",
+    "volume": 9900,
+    "kd": 57,
+    "cpc": 0.81,
+    "competition": 0.26
+  },
+  {
+    "keyword": "translate english to tamil language",
+    "intent": "Informational",
+    "volume": 9900,
+    "kd": 48,
+    "cpc": 1.14,
+    "competition": 0.01
+  },
+  {
+    "keyword": "translate from english to tamil language",
+    "intent": "Informational",
+    "volume": 9900,
+    "kd": 48,
+    "cpc": 2.31,
+    "competition": 0.33
+  },
+  {
+    "keyword": "translate to iranian language",
+    "intent": "Informational",
+    "volume": 9900,
+    "kd": 42,
+    "cpc": 1.34,
+    "competition": 0.08
+  },
+  {
+    "keyword": "translation from english to hindi language",
+    "intent": "Informational",
+    "volume": 9900,
+    "kd": 53,
+    "cpc": 1.71,
+    "competition": 0.33
+  },
+  {
+    "keyword": "translate english to marathi language",
+    "intent": "Informational",
+    "volume": 8100,
+    "kd": 61,
+    "cpc": 2.01,
+    "competition": 0.33
+  },
+  {
+    "keyword": "translate to english language",
+    "intent": "Informational",
+    "volume": 8100,
+    "kd": 100,
+    "cpc": 1.4,
+    "competition": 0.08
+  },
+  {
+    "keyword": "arabic to english language translation",
+    "intent": "Informational",
+    "volume": 6600,
+    "kd": 41,
+    "cpc": 1.33,
+    "competition": 0.09
+  },
+  {
+    "keyword": "english translation to philippines language",
+    "intent": "Informational",
+    "volume": 6600,
+    "kd": 77,
+    "cpc": 1.1,
+    "competition": 0.09
+  },
+  {
+    "keyword": "hindi language translate to english",
+    "intent": "Informational",
+    "volume": 6600,
+    "kd": 42,
+    "cpc": 1.27,
+    "competition": 0.03
+  },
+  {
+    "keyword": "translate english to french language",
+    "intent": "Informational",
+    "volume": 6600,
+    "kd": 73,
+    "cpc": 1.26,
+    "competition": 0.04
+  },
+  {
+    "keyword": "translate english to urdu language",
+    "intent": "Informational",
+    "volume": 6600,
+    "kd": 58,
+    "cpc": 2.54,
+    "competition": 0.04
+  },
+  {
+    "keyword": "translate in greek language",
+    "intent": "Informational",
+    "volume": 6600,
+    "kd": 40,
+    "cpc": 1.5,
+    "competition": 0.03
+  },
+  {
+    "keyword": "dutch language to english translation",
+    "intent": "Informational",
+    "volume": 5400,
+    "kd": 47,
+    "cpc": 1.34,
+    "competition": 0.06
+  },
+  {
+    "keyword": "farsi language translation in english",
+    "intent": "Informational",
+    "volume": 5400,
+    "kd": 37,
+    "cpc": 1.27,
+    "competition": 0.14
+  },
+  {
+    "keyword": "german language translation english",
+    "intent": "Informational",
+    "volume": 5400,
+    "kd": 61,
+    "cpc": 1.12,
+    "competition": 0.08
+  },
+  {
+    "keyword": "google translate detect language",
+    "intent": "Informational",
+    "volume": 5400,
+    "kd": 70,
+    "cpc": 1.26,
+    "competition": 0.03
+  },
+  {
+    "keyword": "language translator speaking",
+    "intent": "Informational",
+    "volume": 5400,
+    "kd": 89,
+    "cpc": 0.81,
+    "competition": 0.26
+  },
+  {
+    "keyword": "sweden language translation to english",
+    "intent": "Informational",
+    "volume": 5400,
+    "kd": 51,
+    "cpc": 1.09,
+    "competition": 0.12
+  },
+  {
+    "keyword": "thailand language translation",
+    "intent": "Informational",
+    "volume": 5400,
+    "kd": 61,
+    "cpc": 1.31,
+    "competition": 0.06
+  },
+  {
+    "keyword": "translate italian language to english",
+    "intent": "Informational",
+    "volume": 5400,
+    "kd": 51,
+    "cpc": 1.15,
+    "competition": 0.09
+  },
+  {
+    "keyword": "chinese languages translator",
+    "intent": "Informational",
+    "volume": 4400,
+    "kd": 45,
+    "cpc": 1.2,
+    "competition": 0.08
+  },
+  {
+    "keyword": "english to amharic language translator",
+    "intent": "Informational",
+    "volume": 4400,
+    "kd": 38,
+    "cpc": 1.67,
+    "competition": 0.02
+  },
+  {
+    "keyword": "english to vietnam language translation",
+    "intent": "Informational",
+    "volume": 4400,
+    "kd": 52,
+    "cpc": 1.25,
+    "competition": 0.05
+  },
+  {
+    "keyword": "filipino language translate to english",
+    "intent": "Informational",
+    "volume": 4400,
+    "kd": 49,
+    "cpc": 1.1,
+    "competition": 0.09
+  },
+  {
+    "keyword": "itranslate language translator",
+    "intent": "Navigational",
+    "volume": 4400,
+    "kd": 36,
+    "cpc": 0.86,
+    "competition": 0.17
+  },
+  {
+    "keyword": "language translation",
+    "intent": "Informational",
+    "volume": 4400,
+    "kd": 100,
+    "cpc": 1.14,
+    "competition": 0.24
+  },
+  {
+    "keyword": "sweden language to english translation",
+    "intent": "Informational",
+    "volume": 4400,
+    "kd": 53,
+    "cpc": 1.32,
+    "competition": 0.06
+  },
+  {
+    "keyword": "translate french language to english",
+    "intent": "Informational",
+    "volume": 4400,
+    "kd": 72,
+    "cpc": 1.0,
+    "competition": 0.03
+  },
+  {
+    "keyword": "translate in latin language",
+    "intent": "Informational",
+    "volume": 4400,
+    "kd": 46,
+    "cpc": 0.0,
+    "competition": 0.09
+  },
+  {
+    "keyword": "translation to korean language",
+    "intent": "Informational",
+    "volume": 4400,
+    "kd": 48,
+    "cpc": 1.47,
+    "competition": 0.06
+  },
+  {
+    "keyword": "creole language to english translation",
+    "intent": "Informational",
+    "volume": 3600,
+    "kd": 29,
+    "cpc": 1.27,
+    "competition": 0.06
+  },
+  {
+    "keyword": "english language translate",
+    "intent": "Informational",
+    "volume": 3600,
+    "kd": 100,
+    "cpc": 1.54,
+    "competition": 0.04
+  },
+  {
+    "keyword": "english to dutch language translation",
+    "intent": "Informational",
+    "volume": 3600,
+    "kd": 47,
+    "cpc": 1.53,
+    "competition": 0.05
+  },
+  {
+    "keyword": "english to greek language translation",
+    "intent": "Informational",
+    "volume": 3600,
+    "kd": 49,
+    "cpc": 1.74,
+    "competition": 0.03
+  },
+  {
+    "keyword": "english to malayalam language translation",
+    "intent": "Informational",
+    "volume": 3600,
+    "kd": 38,
+    "cpc": 2.12,
+    "competition": 0.33
+  },
+  {
+    "keyword": "english to ukraine language translator",
+    "intent": "Informational",
+    "volume": 3600,
+    "kd": 34,
+    "cpc": 1.3,
+    "competition": 0.04
+  },
+  {
+    "keyword": "espanol language translator",
+    "intent": "Informational",
+    "volume": 3600,
+    "kd": 78,
+    "cpc": 1.12,
+    "competition": 0.09
+  },
+  {
+    "keyword": "language to language translator",
+    "intent": "Informational",
+    "volume": 3600,
+    "kd": 100,
+    "cpc": 1.14,
+    "competition": 0.24
+  },
+  {
+    "keyword": "language translator earbuds",
+    "intent": "Informational + Commercial",
+    "volume": 3600,
+    "kd": 32,
+    "cpc": 0.9,
+    "competition": 1.0
+  },
+  {
+    "keyword": "latin to english language translator",
+    "intent": "Informational",
+    "volume": 3600,
+    "kd": 46,
+    "cpc": 1.42,
+    "competition": 0.05
+  },
+  {
+    "keyword": "norway language translation to english",
+    "intent": "Informational",
+    "volume": 3600,
+    "kd": 32,
+    "cpc": 1.14,
+    "competition": 0.09
+  },
+  {
+    "keyword": "translate from english to farsi language",
+    "intent": "Informational",
+    "volume": 3600,
+    "kd": 35,
+    "cpc": 1.26,
+    "competition": 0.04
+  },
+  {
+    "keyword": "translate from indonesian to english language",
+    "intent": "Informational",
+    "volume": 3600,
+    "kd": 43,
+    "cpc": 1.54,
+    "competition": 0.05
+  },
+  {
+    "keyword": "translate japan language",
+    "intent": "Informational",
+    "volume": 3600,
+    "kd": 54,
+    "cpc": 1.51,
+    "competition": 0.06
+  },
+  {
+    "keyword": "translate language english to french",
+    "intent": "Informational",
+    "volume": 3600,
+    "kd": 65,
+    "cpc": 1.41,
+    "competition": 0.02
+  },
+  {
+    "keyword": "bangla language translator",
+    "intent": "Informational",
+    "volume": 2900,
+    "kd": 41,
+    "cpc": 1.35,
+    "competition": 0.07
+  },
+  {
+    "keyword": "chinese language translator",
+    "intent": "Informational",
+    "volume": 2900,
+    "kd": 40,
+    "cpc": 1.2,
+    "competition": 0.08
+  },
+  {
+    "keyword": "elvish language translator",
+    "intent": "Informational",
+    "volume": 2900,
+    "kd": 23,
+    "cpc": 2.66,
+    "competition": 0.33
+  },
+  {
+    "keyword": "english to kannada language translation",
+    "intent": "Informational",
+    "volume": 2900,
+    "kd": 41,
+    "cpc": 2.38,
+    "competition": 0.33
+  },
+  {
+    "keyword": "germanic language translator",
+    "intent": "Informational",
+    "volume": 2900,
+    "kd": 39,
+    "cpc": 1.38,
+    "competition": 0.05
+  },
+  {
+    "keyword": "greek language translator",
+    "intent": "Informational",
+    "volume": 2900,
+    "kd": 47,
+    "cpc": 1.5,
+    "competition": 0.03
+  },
+  {
+    "keyword": "hawaiian language translator",
+    "intent": "Informational",
+    "volume": 2900,
+    "kd": 35,
+    "cpc": 1.58,
+    "competition": 0.04
+  },
+  {
+    "keyword": "language translation speaking",
+    "intent": "Informational",
+    "volume": 2900,
+    "kd": 89,
+    "cpc": 0.81,
+    "competition": 0.26
+  },
+  {
+    "keyword": "russian language translator",
+    "intent": "Informational",
+    "volume": 2900,
+    "kd": 52,
+    "cpc": 1.34,
+    "competition": 0.06
+  },
+  {
+    "keyword": "telugu to english language translation",
+    "intent": "Informational",
+    "volume": 2900,
+    "kd": 37,
+    "cpc": 1.27,
+    "competition": 0.06
+  },
+  {
+    "keyword": "translate to old english language",
+    "intent": "Informational",
+    "volume": 2900,
+    "kd": 36,
+    "cpc": 2.8,
+    "competition": 0.01
+  },
+  {
+    "keyword": "translator in arabic language",
+    "intent": "Informational",
+    "volume": 2900,
+    "kd": 55,
+    "cpc": 1.31,
+    "competition": 0.07
+  },
+  {
+    "keyword": "alien language translator",
+    "intent": "Informational",
+    "volume": 2400,
+    "kd": 12,
+    "cpc": 0.0,
+    "competition": 0.33
+  },
+  {
+    "keyword": "bangladesh language translation to english",
+    "intent": "Informational",
+    "volume": 2400,
+    "kd": 37,
+    "cpc": 1.5,
+    "competition": 0.05
+  },
+  {
+    "keyword": "chinese language translation",
+    "intent": "Informational",
+    "volume": 2400,
+    "kd": 47,
+    "cpc": 1.2,
+    "competition": 0.08
+  },
+  {
+    "keyword": "english tamil language translation",
+    "intent": "Informational",
+    "volume": 2400,
+    "kd": 48,
+    "cpc": 2.22,
+    "competition": 0.01
+  },
+  {
+    "keyword": "english to igbo language translator",
+    "intent": "Informational",
+    "volume": 2400,
+    "kd": 33,
+    "cpc": 1.72,
+    "competition": 0.02
+  },
+  {
+    "keyword": "english to tamil language translate",
+    "intent": "Informational",
+    "volume": 2400,
+    "kd": 47,
+    "cpc": 2.22,
+    "competition": 0.01
+  },
+  {
+    "keyword": "english to tamil language translation",
+    "intent": "Informational",
+    "volume": 2400,
+    "kd": 48,
+    "cpc": 2.22,
+    "competition": 0.01
+  },
+  {
+    "keyword": "english to tamil language translator",
+    "intent": "Informational",
+    "volume": 2400,
+    "kd": 48,
+    "cpc": 2.22,
+    "competition": 0.01
+  },
+  {
+    "keyword": "english to telugu language translation",
+    "intent": "Informational",
+    "volume": 2400,
+    "kd": 47,
+    "cpc": 2.01,
+    "competition": 0.01
+  },
+  {
+    "keyword": "english translation to tamil language",
+    "intent": "Informational",
+    "volume": 2400,
+    "kd": 51,
+    "cpc": 2.22,
+    "competition": 0.01
+  },
+  {
+    "keyword": "google translate english to arabic language",
+    "intent": "Informational",
+    "volume": 2400,
+    "kd": 42,
+    "cpc": 1.19,
+    "competition": 0.03
+  },
+  {
+    "keyword": "greek language translation to english",
+    "intent": "Informational",
+    "volume": 2400,
+    "kd": 40,
+    "cpc": 1.27,
+    "competition": 0.11
+  },
+  {
+    "keyword": "haitian language translator",
+    "intent": "Informational",
+    "volume": 2400,
+    "kd": 33,
+    "cpc": 1.33,
+    "competition": 0.11
+  },
+  {
+    "keyword": "international phonetic language translator",
+    "intent": "Informational",
+    "volume": 2400,
+    "kd": 33,
+    "cpc": 0.0,
+    "competition": 0.33
+  },
+  {
+    "keyword": "language translation translation",
+    "intent": "Informational",
+    "volume": 2400,
+    "kd": 100,
+    "cpc": 1.14,
+    "competition": 0.24
+  },
+  {
+    "keyword": "navajo language translator",
+    "intent": "Informational",
+    "volume": 2400,
+    "kd": 15,
+    "cpc": 2.06,
+    "competition": 0.02
+  },
+  {
+    "keyword": "russian language translate",
+    "intent": "Informational",
+    "volume": 2400,
+    "kd": 59,
+    "cpc": 1.34,
+    "competition": 0.06
+  }
+]

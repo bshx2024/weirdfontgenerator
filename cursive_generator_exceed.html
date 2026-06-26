@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursive Text Generator (𝓬𝓸𝓹𝔂 𝒶𝓃𝒹 𝓹𝓪𝓼𝓽𝓮) - Ad-Free Utility</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-color: #f1f5f9;
+            --accent-color: #38bdf8;
+            --accent-hover: #0ea5e9;
+            --success-color: #4ade80;
+            --border-color: #334155;
+            --text-muted: #94a3b8;
+        }
+
+        @media (prefers-color-scheme: light) {
+            :root {
+                --bg-color: #f8fafc;
+                --card-bg: #ffffff;
+                --text-color: #0f172a;
+                --accent-color: #0284c7;
+                --accent-hover: #0369a1;
+                --success-color: #16a34a;
+                --border-color: #e2e8f0;
+                --text-muted: #64748b;
+            }
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            background: linear-gradient(135deg, var(--accent-color), #a855f7);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        p.subtitle {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+            margin-top: 0;
+        }
+
+        .input-card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+            margin-bottom: 25px;
+        }
+
+        textarea {
+            width: 100%;
+            height: 100px;
+            box-sizing: border-box;
+            background-color: transparent;
+            border: none;
+            color: var(--text-color);
+            font-size: 1.2rem;
+            outline: none;
+            resize: vertical;
+        }
+
+        .results-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .result-row {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 15px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .result-row:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+
+        .style-name {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            min-width: 120px;
+        }
+
+        .output-text {
+            font-size: 1.4rem;
+            flex-grow: 1;
+            word-break: break-all;
+        }
+
+        .btn-copy {
+            background-color: var(--accent-color);
+            color: white;
+            border: none;
+            border-radius: 6px;
+            padding: 8px 16px;
+            font-size: 0.9rem;
+            cursor: pointer;
+            transition: background-color 0.2s, transform 0.1s;
+            outline: none;
+            white-space: nowrap;
+        }
+
+        .btn-copy:hover {
+            background-color: var(--accent-hover);
+        }
+
+        .btn-copy:active {
+            transform: scale(0.95);
+        }
+
+        .btn-copy.success {
+            background-color: var(--success-color);
+        }
+
+        .faq-section {
+            margin-top: 50px;
+            border-top: 1px solid var(--border-color);
+            padding-top: 30px;
+        }
+
+        .faq-section h2 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+
+        .faq-item {
+            margin-bottom: 20px;
+        }
+
+        .faq-item h3 {
+            font-size: 1.1rem;
+            margin-bottom: 8px;
+            color: var(--accent-color);
+        }
+
+        .faq-item p {
+            color: var(--text-muted);
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Cursive Text Generator</h1>
+            <p class="subtitle">Convert plain text to elegant cursive & script symbols instantly. Ad-free & copy-paste ready.</p>
+        </header>
+
+        <div class="input-card">
+            <textarea id="input-text" placeholder="Type or paste your text here..." autofocus>Hello World</textarea>
+        </div>
+
+        <div class="results-container" id="results-container">
+            <!-- Results will be injected here by JavaScript -->
+        </div>
+
+        <section class="faq-section">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <h3>How do Unicode generators work?</h3>
+                <p>This generator maps standard Latin alphabet characters to special mathematical script and cursive symbols defined in the Unicode standard. Because they are native Unicode symbols rather than a custom font file, you can copy and paste them directly into social media sites (Instagram, Twitter/X, TikTok, Discord) and they will render correctly for everyone.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Will these cursive symbols work on Instagram and TikTok?</h3>
+                <p>Yes! Since these are Unicode characters, they work perfectly in bios, captions, and comments on almost all modern social media platforms. Note that some older devices or operating systems may occasionally display them as rectangles if they lack the required Unicode block support.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Why use this ad-free generator?</h3>
+                <p>Unlike other generators that are crowded with intrusive ads, trackers, and popup overlays that slow down your mobile device, this tool is 100% free, run entirely in your local browser, loads instantly, and offers one-click copy buttons for every style.</p>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        const boldCursiveMap = {"0":"0","1":"1","2":"2","3":"3","4":"4","5":"5","6":"6","7":"7","8":"8","9":"9","a":"𝓪","b":"𝓫","c":"𝓬","d":"𝓭","e":"𝓮","f":"𝓯","g":"𝓰","h":"𝓱","i":"𝓲","j":"𝓳","k":"𝓴","l":"𝓵","m":"𝓶","n":"𝓷","o":"𝓸","p":"𝓹","q":"𝓺","r":"𝓻","s":"𝓼","t":"𝓽","u":"𝓾","v":"𝓿","w":"𝔀","x":"𝔁","y":"𝔂","z":"𝔃","A":"𝓐","B":"𝓑","C":"𝓒","D":"𝓓","E":"𝓔","F":"𝓕","G":"𝓖","H":"𝓗","I":"𝓘","J":"𝓙","K":"𝓚","L":"𝓛","M":"𝓜","N":"𝓝","O":"𝓞","P":"𝓟","Q":"𝓠","R":"𝓡","S":"𝓢","T":"𝓣","U":"𝓤","V":"𝓥","W":"𝓦","X":"𝓧","Y":"𝓨","Z":"𝓩"};
+        const regularCursiveMap = {"0":"🄲","1":"🄱","2":"🄲","3":"🄳","4":"🄴","5":"🄵","6":"🄶","7":"🄷","8":"🄸","9":"🄹","a":"𝒶","b":"𝒷","c":"𝒸","d":"𝒹","e":"𝑒","f":"𝒻","g":"𝑔","h":"𝒽","i":"𝒾","j":"𝒿","k":"𝓀","l":"𝓁","m":"𝓂","n":"𝓃","o":"𝑜","p":"𝓅","q":"𝓆","r":"𝓇","s":"𝓈","t":"𝓉","u":"𝓊","v":"𝓋","w":"𝓌","x":"𝓍","y":"𝓎","z":"𝓏","A":"𝒜","B":"𝐵","C":"𝒞","D":"𝒟","E":"𝐸","F":"𝐹","G":"𝒢","H":"𝐻","I":"𝐼","J":"𝒥","K":"𝒦","L":"𝐿","M":"𝑀","N":"𝒩","O":"𝒪","P":"𝒫","Q":"𝒬","R":"𝑅","S":"𝒮","T":"𝒯","U":"𝒰","V":"𝒱","W":"𝒲","X":"𝒳","Y":"𝒴","Z":"𝒵"};
+        const doubleStruckMap = {"a":"𝕒","b":"𝕓","c":"𝕔","d":"𝕕","e":"𝕖","f":"𝕗","g":"𝕘","h":"𝕙","i":"𝕚","j":"𝕛","k":"𝕜","l":"𝕝","m":"𝕞","n":"𝕟","o":"𝕠","p":"𝕡","q":"𝕢","r":"𝕣","s":"𝕤","t":"𝕥","u":"𝕦","v":"𝕧","w":"𝕨","x":"𝕩","y":"𝕪","z":"𝕫","A":"𝔸","B":"𝔹","C":"ℂ","D":"𝔻","E":"𝔼","F":"𝔽","G":"𝔾","H":"ℍ","I":"𝕀","J":"𝕁","K":"𝕂","L":"𝕃","M":"𝕄","N":"ℕ","O":"𝕆","P":"ℙ","Q":"ℚ","R":"ℝ","S":"𝕊","T":"𝕋","U":"𝕌","V":"𝕍","W":"𝕎","X":"𝕏","Y":"𝕐","Z":"ℤ"};
+        const gothicMap = {"a":"𝔞","b":"𝔟","c":"𝔠","d":"𝔡","e":"𝔢","f":"𝔣","g":"𝔤","h":"𝔥","i":"𝔦","j":"𝔧","k":"𝔨","l":"𝔩","m":"𝔪","n":"𝔫","o":"𝔬","p":"𝔭","q":"𝔮","r":"𝔯","s":"𝔰","t":"𝔱","u":"𝔲","v":"𝔳","w":"𝔴","x":"𝔵","y":"𝔶","z":"𝔷","A":"𝔄","B":"𝔅","C":"𝔆","D":"𝔇","E":"𝔈","F":"𝔉","G":"𝔊","H":"ℌ","I":"ℑ","J":"𝔍","K":"𝔎","L":"𝔏","M":"𝔐","N":"𝔑","O":"𝔒","P":"𝔓","Q":"𝔔","R":"ℜ","S":"𝔖","T":"𝔗","U":"𝔘","V":"𝔙","W":"𝔚","X":"𝔛","Y":"𝔜","Z":"ℨ"};
+        const squaredMap = {"a":"🄰","b":"🄱","c":"🄲","d":"🄳","e":"🄴","f":"🄵","g":"🄶","h":"🄷","i":"🄸","j":"🄹","k":"🄺","l":"🄻","m":"🄼","n":"🄽","o":"🄾","p":"🄿","q":"🅀","r":"🅁","s":"🅂","t":"🅃","u":"🅄","v":"🅅","w":"🅆","x":"🅇","y":"🅈","z":"🅉","A":"🄰","B":"🄱","C":"🄲","D":"🄳","E":"🄴","F":"🄵","G":"🄶","H":"🄷","I":"🄸","J":"🄹","K":"🄺","L":"🄻","M":"🄼","N":"🄽","O":"🄾","P":"🄿","Q":"🅀","R":"🅁","S":"🅂","T":"🅃","U":"🅄","V":"🅅","W":"🅆","X":"🅇","Y":"🅈","Z":"🅉"};
+
+        const styles = [
+            { name: "Bold Cursive", map: boldCursiveMap },
+            { name: "Regular Cursive", map: regularCursiveMap },
+            { name: "Double Struck", map: doubleStruckMap },
+            { name: "Gothic / Fraktur", map: gothicMap },
+            { name: "Squared Letters", map: squaredMap }
+        ];
+
+        const input = document.getElementById("input-text");
+        const resultsContainer = document.getElementById("results-container");
+
+        function translateText(text, map) {
+            return text.split("").map(char => map[char] || char).join("");
+        }
+
+        function renderResults() {
+            const text = input.value || "Hello World";
+            resultsContainer.innerHTML = "";
+
+            styles.forEach(style => {
+                const converted = translateText(text, style.map);
+                
+                const row = document.createElement("div");
+                row.className = "result-row";
+
+                const styleSpan = document.createElement("span");
+                styleSpan.className = "style-name";
+                styleSpan.textContent = style.name;
+
+                const outputSpan = document.createElement("span");
+                outputSpan.className = "output-text";
+                outputSpan.textContent = converted;
+
+                const copyBtn = document.createElement("button");
+                copyBtn.className = "btn-copy";
+                copyBtn.textContent = "Copy";
+                copyBtn.onclick = () => {
+                    navigator.clipboard.writeText(converted).then(() => {
+                        copyBtn.textContent = "Copied!";
+                        copyBtn.classList.add("success");
+                        setTimeout(() => {
+                            copyBtn.textContent = "Copy";
+                            copyBtn.classList.remove("success");
+                        }, 1500);
+                    });
+                };
+
+                row.appendChild(styleSpan);
+                row.appendChild(outputSpan);
+                row.appendChild(copyBtn);
+                resultsContainer.appendChild(row);
+            });
+        }
+
+        input.addEventListener("input", renderResults);
+        renderResults(); // Initial render
+    </script>
+</body>
+</html>

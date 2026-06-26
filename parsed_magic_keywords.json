@@ -1,0 +1,802 @@
+[
+  {
+    "keyword": "font generator",
+    "intent": "Informational",
+    "volume": 823000,
+    "kd": 78,
+    "cpc": 0.34,
+    "competition": 0.33
+  },
+  {
+    "keyword": "cursive font generator",
+    "intent": "Informational",
+    "volume": 33100,
+    "kd": 41,
+    "cpc": 0.08,
+    "competition": 0.02
+  },
+  {
+    "keyword": "fancy font generator",
+    "intent": "Informational",
+    "volume": 27100,
+    "kd": 68,
+    "cpc": 0.96,
+    "competition": 0.33
+  },
+  {
+    "keyword": "fonts generator",
+    "intent": "Informational",
+    "volume": 27100,
+    "kd": 75,
+    "cpc": 0.34,
+    "competition": 0.33
+  },
+  {
+    "keyword": "font generator free",
+    "intent": "Informational",
+    "volume": 22200,
+    "kd": 73,
+    "cpc": 0.14,
+    "competition": 0.04
+  },
+  {
+    "keyword": "bold font generator",
+    "intent": "Informational",
+    "volume": 14800,
+    "kd": 65,
+    "cpc": 1.55,
+    "competition": 0.33
+  },
+  {
+    "keyword": "tattoo font generator",
+    "intent": "Informational",
+    "volume": 14800,
+    "kd": 50,
+    "cpc": 0.74,
+    "competition": 0.03
+  },
+  {
+    "keyword": "cool font generator",
+    "intent": "Informational",
+    "volume": 12100,
+    "kd": 70,
+    "cpc": 0.35,
+    "competition": 0.01
+  },
+  {
+    "keyword": "instagram font generator",
+    "intent": "Informational",
+    "volume": 12100,
+    "kd": 59,
+    "cpc": 0.22,
+    "competition": 0.33
+  },
+  {
+    "keyword": "font generator copy paste",
+    "intent": "Informational",
+    "volume": 9900,
+    "kd": 65,
+    "cpc": 0.14,
+    "competition": 0.01
+  },
+  {
+    "keyword": "text font generator",
+    "intent": "Informational",
+    "volume": 9900,
+    "kd": 71,
+    "cpc": 0.1,
+    "competition": 0.01
+  },
+  {
+    "keyword": "tiny font generator",
+    "intent": "Informational",
+    "volume": 9900,
+    "kd": 38,
+    "cpc": 0.09,
+    "competition": 0.33
+  },
+  {
+    "keyword": "calligraphy font generator",
+    "intent": "Informational",
+    "volume": 8100,
+    "kd": 58,
+    "cpc": 0.72,
+    "competition": 0.02
+  },
+  {
+    "keyword": "font generator copy and paste",
+    "intent": "Informational",
+    "volume": 8100,
+    "kd": 69,
+    "cpc": 0.14,
+    "competition": 0.01
+  },
+  {
+    "keyword": "free font generator",
+    "intent": "Informational",
+    "volume": 8100,
+    "kd": 71,
+    "cpc": 0.14,
+    "competition": 0.04
+  },
+  {
+    "keyword": "gothic font generator",
+    "intent": "Informational",
+    "volume": 8100,
+    "kd": 44,
+    "cpc": 1.08,
+    "competition": 0.33
+  },
+  {
+    "keyword": "italic font generator",
+    "intent": "Informational",
+    "volume": 8100,
+    "kd": 36,
+    "cpc": 0.0,
+    "competition": 0.33
+  },
+  {
+    "keyword": "text generator font",
+    "intent": "Informational",
+    "volume": 8100,
+    "kd": 71,
+    "cpc": 0.1,
+    "competition": 0.01
+  },
+  {
+    "keyword": "font generator online",
+    "intent": "Informational",
+    "volume": 6600,
+    "kd": 70,
+    "cpc": 0.57,
+    "competition": 0.01
+  },
+  {
+    "keyword": "graffiti font generator",
+    "intent": "Informational",
+    "volume": 6600,
+    "kd": 52,
+    "cpc": 0.72,
+    "competition": 0.02
+  },
+  {
+    "keyword": "small font generator",
+    "intent": "Informational",
+    "volume": 6600,
+    "kd": 38,
+    "cpc": 0.18,
+    "competition": 0.33
+  },
+  {
+    "keyword": "cute font generator",
+    "intent": "Informational",
+    "volume": 5400,
+    "kd": 52,
+    "cpc": 0.97,
+    "competition": 0.33
+  },
+  {
+    "keyword": "discord font generator",
+    "intent": "Informational",
+    "volume": 5400,
+    "kd": 44,
+    "cpc": 0.0,
+    "competition": 0.33
+  },
+  {
+    "keyword": "font text generator",
+    "intent": "Informational",
+    "volume": 5400,
+    "kd": 70,
+    "cpc": 0.1,
+    "competition": 0.01
+  },
+  {
+    "keyword": "old english font generator",
+    "intent": "Informational",
+    "volume": 5400,
+    "kd": 39,
+    "cpc": 0.44,
+    "competition": 0.01
+  },
+  {
+    "keyword": "weird font generator",
+    "intent": "Informational",
+    "volume": 5400,
+    "kd": 28,
+    "cpc": 0.0,
+    "competition": 0.33
+  },
+  {
+    "keyword": "font generator web",
+    "intent": "Informational",
+    "volume": 4400,
+    "kd": 77,
+    "cpc": 0.24,
+    "competition": 0.33
+  },
+  {
+    "keyword": "freaky font generator",
+    "intent": "Informational",
+    "volume": 4400,
+    "kd": 22,
+    "cpc": 0.0,
+    "competition": 0.33
+  },
+  {
+    "keyword": "minecraft font generator",
+    "intent": "Informational",
+    "volume": 4400,
+    "kd": 31,
+    "cpc": 0.0,
+    "competition": 0.33
+  },
+  {
+    "keyword": "script font generator",
+    "intent": "Informational",
+    "volume": 4400,
+    "kd": 60,
+    "cpc": 0.67,
+    "competition": 0.02
+  },
+  {
+    "keyword": "tattoo design font generator",
+    "intent": "Informational",
+    "volume": 4400,
+    "kd": 51,
+    "cpc": 0.74,
+    "competition": 0.03
+  },
+  {
+    "keyword": "3d font generator",
+    "intent": "Informational",
+    "volume": 3600,
+    "kd": 44,
+    "cpc": 1.56,
+    "competition": 0.01
+  },
+  {
+    "keyword": "ai font generators",
+    "intent": "Informational + Commercial",
+    "volume": 3600,
+    "kd": 44,
+    "cpc": 0.0,
+    "competition": 0.33
+  },
+  {
+    "keyword": "cool text font generator",
+    "intent": "Informational",
+    "volume": 3600,
+    "kd": 67,
+    "cpc": 0.35,
+    "competition": 0.01
+  },
+  {
+    "keyword": "disney font generator",
+    "intent": "Informational",
+    "volume": 3600,
+    "kd": 25,
+    "cpc": 0.0,
+    "competition": 0.33
+  },
+  {
+    "keyword": "meta tags font generator for instagram",
+    "intent": "Commercial",
+    "volume": 3600,
+    "kd": 57,
+    "cpc": 0.0,
+    "competition": 0.33
+  },
+  {
+    "keyword": "upside down font generator",
+    "intent": "Informational",
+    "volume": 3600,
+    "kd": 29,
+    "cpc": 0.06,
+    "competition": 0.33
+  },
+  {
+    "keyword": "bubble font generator",
+    "intent": "Informational",
+    "volume": 2900,
+    "kd": 28,
+    "cpc": 1.45,
+    "competition": 0.01
+  },
+  {
+    "keyword": "facebook font generator",
+    "intent": "Informational",
+    "volume": 2900,
+    "kd": 33,
+    "cpc": 0.04,
+    "competition": 0.33
+  },
+  {
+    "keyword": "font generator tattoo",
+    "intent": "Informational",
+    "volume": 2900,
+    "kd": 42,
+    "cpc": 0.74,
+    "competition": 0.03
+  },
+  {
+    "keyword": "online font generator",
+    "intent": "Informational",
+    "volume": 2900,
+    "kd": 69,
+    "cpc": 0.57,
+    "competition": 0.01
+  },
+  {
+    "keyword": "special font generator",
+    "intent": "Informational",
+    "volume": 2900,
+    "kd": 65,
+    "cpc": 0.55,
+    "competition": 0.33
+  },
+  {
+    "keyword": "brat font generator",
+    "intent": "Informational",
+    "volume": 2400,
+    "kd": 21,
+    "cpc": 0.0,
+    "competition": 0.33
+  },
+  {
+    "keyword": "custom font generator",
+    "intent": "Informational",
+    "volume": 2400,
+    "kd": 71,
+    "cpc": 0.34,
+    "competition": 0.03
+  },
+  {
+    "keyword": "different font generator",
+    "intent": "Informational",
+    "volume": 2400,
+    "kd": 70,
+    "cpc": 0.19,
+    "competition": 0.02
+  },
+  {
+    "keyword": "font generator cool",
+    "intent": "Informational",
+    "volume": 2400,
+    "kd": 65,
+    "cpc": 1.4,
+    "competition": 0.33
+  },
+  {
+    "keyword": "font generator cursive",
+    "intent": "Commercial",
+    "volume": 2400,
+    "kd": 45,
+    "cpc": 0.08,
+    "competition": 0.02
+  },
+  {
+    "keyword": "meme font generator",
+    "intent": "Informational",
+    "volume": 2400,
+    "kd": 43,
+    "cpc": 0.0,
+    "competition": 0.33
+  },
+  {
+    "keyword": "metal font generator",
+    "intent": "Informational",
+    "volume": 2400,
+    "kd": 25,
+    "cpc": 1.53,
+    "competition": 0.02
+  },
+  {
+    "keyword": "name font generator",
+    "intent": "Informational",
+    "volume": 2400,
+    "kd": 61,
+    "cpc": 0.12,
+    "competition": 0.01
+  },
+  {
+    "keyword": "pokemon font generator",
+    "intent": "Informational",
+    "volume": 2400,
+    "kd": 26,
+    "cpc": 0.0,
+    "competition": 0.33
+  },
+  {
+    "keyword": "star wars font generator",
+    "intent": "Informational",
+    "volume": 2400,
+    "kd": 22,
+    "cpc": 0.0,
+    "competition": 0.33
+  },
+  {
+    "keyword": "tattoo fonts generator",
+    "intent": "Informational",
+    "volume": 2400,
+    "kd": 38,
+    "cpc": 0.74,
+    "competition": 0.03
+  },
+  {
+    "keyword": "text generator fonts",
+    "intent": "Informational",
+    "volume": 2400,
+    "kd": 72,
+    "cpc": 0.1,
+    "competition": 0.01
+  },
+  {
+    "keyword": "twitter font generator",
+    "intent": "Informational",
+    "volume": 2400,
+    "kd": 58,
+    "cpc": 0.0,
+    "competition": 0.33
+  },
+  {
+    "keyword": "word font generator",
+    "intent": "Informational",
+    "volume": 2400,
+    "kd": 68,
+    "cpc": 0.03,
+    "competition": 0.03
+  },
+  {
+    "keyword": "barbie font generator",
+    "intent": "Informational",
+    "volume": 1900,
+    "kd": 22,
+    "cpc": 0.0,
+    "competition": 0.02
+  },
+  {
+    "keyword": "cool font generator copy and paste",
+    "intent": "Informational",
+    "volume": 1900,
+    "kd": 63,
+    "cpc": 0.69,
+    "competition": 0.33
+  },
+  {
+    "keyword": "creepy font generator",
+    "intent": "Informational",
+    "volume": 1900,
+    "kd": 39,
+    "cpc": 0.0,
+    "competition": 0.0
+  },
+  {
+    "keyword": "cursive fonts generator",
+    "intent": "Informational",
+    "volume": 1900,
+    "kd": 39,
+    "cpc": 0.08,
+    "competition": 0.02
+  },
+  {
+    "keyword": "cute font generator copy and paste",
+    "intent": "Informational",
+    "volume": 1900,
+    "kd": 59,
+    "cpc": 0.6,
+    "competition": 0.33
+  },
+  {
+    "keyword": "font generater",
+    "intent": "Informational",
+    "volume": 1900,
+    "kd": 72,
+    "cpc": 0.34,
+    "competition": 0.33
+  },
+  {
+    "keyword": "font generatir",
+    "intent": "Informational",
+    "volume": 1900,
+    "kd": 72,
+    "cpc": 0.01,
+    "competition": 0.02
+  },
+  {
+    "keyword": "font gothic generator",
+    "intent": "Informational",
+    "volume": 1900,
+    "kd": 42,
+    "cpc": 1.08,
+    "competition": 0.33
+  },
+  {
+    "keyword": "font picture generator",
+    "intent": "Informational",
+    "volume": 1900,
+    "kd": 67,
+    "cpc": 1.04,
+    "competition": 0.07
+  },
+  {
+    "keyword": "ig font generator",
+    "intent": "Informational",
+    "volume": 1900,
+    "kd": 62,
+    "cpc": 0.22,
+    "competition": 0.33
+  },
+  {
+    "keyword": "scary font generator",
+    "intent": "Informational",
+    "volume": 1900,
+    "kd": 48,
+    "cpc": 0.0,
+    "competition": 0.0
+  },
+  {
+    "keyword": "aesthetic font generator",
+    "intent": "Informational",
+    "volume": 1600,
+    "kd": 58,
+    "cpc": 0.0,
+    "competition": 0.0
+  },
+  {
+    "keyword": "ai font generator",
+    "intent": "Informational + Commercial",
+    "volume": 1600,
+    "kd": 53,
+    "cpc": 1.04,
+    "competition": 0.15
+  },
+  {
+    "keyword": "comic sans font generator",
+    "intent": "Informational",
+    "volume": 1600,
+    "kd": 21,
+    "cpc": 1.02,
+    "competition": 0.0
+  },
+  {
+    "keyword": "cool fonts generator",
+    "intent": "Informational",
+    "volume": 1600,
+    "kd": 58,
+    "cpc": 0.09,
+    "competition": 0.01
+  },
+  {
+    "keyword": "copy and paste font generator",
+    "intent": "Informational",
+    "volume": 1600,
+    "kd": 63,
+    "cpc": 0.14,
+    "competition": 0.01
+  },
+  {
+    "keyword": "death metal font generator",
+    "intent": "Informational",
+    "volume": 1600,
+    "kd": 17,
+    "cpc": 1.36,
+    "competition": 0.02
+  },
+  {
+    "keyword": "fb font generator",
+    "intent": "Informational",
+    "volume": 1600,
+    "kd": 27,
+    "cpc": 0.05,
+    "competition": 0.0
+  },
+  {
+    "keyword": "fraktur font generator numbers",
+    "intent": "Informational",
+    "volume": 1600,
+    "kd": 16,
+    "cpc": 0.0,
+    "competition": 0.0
+  },
+  {
+    "keyword": "impact font generator",
+    "intent": "Informational + Commercial",
+    "volume": 1600,
+    "kd": 23,
+    "cpc": 0.0,
+    "competition": 0.0
+  },
+  {
+    "keyword": "instagram fonts generator",
+    "intent": "Informational",
+    "volume": 1600,
+    "kd": 65,
+    "cpc": 0.0,
+    "competition": 0.33
+  },
+  {
+    "keyword": "old font generator",
+    "intent": "Informational",
+    "volume": 1600,
+    "kd": 54,
+    "cpc": 0.44,
+    "competition": 0.01
+  },
+  {
+    "keyword": "pretty font generator",
+    "intent": "Informational",
+    "volume": 1600,
+    "kd": 54,
+    "cpc": 0.03,
+    "competition": 0.02
+  },
+  {
+    "keyword": "san francisco font text generator",
+    "intent": "Informational",
+    "volume": 1600,
+    "kd": 21,
+    "cpc": 0.0,
+    "competition": 0.0
+  },
+  {
+    "keyword": "times new roman font generator",
+    "intent": "Informational",
+    "volume": 1600,
+    "kd": 19,
+    "cpc": 0.0,
+    "competition": 0.0
+  },
+  {
+    "keyword": "ascii font generator",
+    "intent": "Commercial",
+    "volume": 1300,
+    "kd": 53,
+    "cpc": 0.0,
+    "competition": 0.0
+  },
+  {
+    "keyword": "bluey font generator",
+    "intent": "Informational",
+    "volume": 1300,
+    "kd": 21,
+    "cpc": 0.0,
+    "competition": 0.01
+  },
+  {
+    "keyword": "chicano font generator",
+    "intent": "Informational",
+    "volume": 1300,
+    "kd": 13,
+    "cpc": 1.41,
+    "competition": 0.01
+  },
+  {
+    "keyword": "crazy font generator",
+    "intent": "Informational",
+    "volume": 1300,
+    "kd": 36,
+    "cpc": 0.0,
+    "competition": 0.0
+  },
+  {
+    "keyword": "cursive font generator online free",
+    "intent": "Informational",
+    "volume": 1300,
+    "kd": 53,
+    "cpc": 0.0,
+    "competition": 0.33
+  },
+  {
+    "keyword": "cursive generator font",
+    "intent": "Informational",
+    "volume": 1300,
+    "kd": 36,
+    "cpc": 0.11,
+    "competition": 0.02
+  },
+  {
+    "keyword": "cursive tattoo generator font",
+    "intent": "Informational",
+    "volume": 1300,
+    "kd": 36,
+    "cpc": 0.81,
+    "competition": 0.02
+  },
+  {
+    "keyword": "fancy fonts generator",
+    "intent": "Informational",
+    "volume": 1300,
+    "kd": 65,
+    "cpc": 0.35,
+    "competition": 0.0
+  },
+  {
+    "keyword": "font copy and paste generator",
+    "intent": "Informational",
+    "volume": 1300,
+    "kd": 64,
+    "cpc": 0.05,
+    "competition": 0.01
+  },
+  {
+    "keyword": "font generator cute",
+    "intent": "Informational",
+    "volume": 1300,
+    "kd": 46,
+    "cpc": 0.41,
+    "competition": 0.0
+  },
+  {
+    "keyword": "font generators",
+    "intent": "Informational",
+    "volume": 1300,
+    "kd": 67,
+    "cpc": 0.01,
+    "competition": 0.02
+  },
+  {
+    "keyword": "font.generator",
+    "intent": "Informational",
+    "volume": 1300,
+    "kd": 65,
+    "cpc": 0.0,
+    "competition": 0.0
+  },
+  {
+    "keyword": "fonts generator copy and paste",
+    "intent": "Informational",
+    "volume": 1300,
+    "kd": 56,
+    "cpc": 0.05,
+    "competition": 0.01
+  },
+  {
+    "keyword": "fortnite font generator",
+    "intent": "Informational",
+    "volume": 1300,
+    "kd": 46,
+    "cpc": 0.0,
+    "competition": 0.0
+  },
+  {
+    "keyword": "free tattoo font generator",
+    "intent": "Informational",
+    "volume": 1300,
+    "kd": 41,
+    "cpc": 0.65,
+    "competition": 0.09
+  },
+  {
+    "keyword": "greek font generator",
+    "intent": "Informational",
+    "volume": 1300,
+    "kd": 23,
+    "cpc": 0.0,
+    "competition": 0.33
+  },
+  {
+    "keyword": "harry potter font generator",
+    "intent": "Informational",
+    "volume": 1300,
+    "kd": 20,
+    "cpc": 0.0,
+    "competition": 0.0
+  },
+  {
+    "keyword": "heart font generator",
+    "intent": "Informational",
+    "volume": 1300,
+    "kd": 20,
+    "cpc": 0.0,
+    "competition": 0.33
+  },
+  {
+    "keyword": "ig fonts generator",
+    "intent": "Informational",
+    "volume": 1300,
+    "kd": 54,
+    "cpc": 0.02,
+    "competition": 0.0
+  }
+]
