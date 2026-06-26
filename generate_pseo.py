@@ -2114,7 +2114,7 @@ print(f"Success: Generated {len(articles_data)} cornerstone articles at {article
 # ----------------------------------------------------
 # Generate Sitemap & Robots.txt
 # ----------------------------------------------------
-base_url = "https://weirdfontgenerator.xyz"
+base_url = "https://www.weirdfontgenerator.xyz"
 
 sitemap_xml = f"""<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
