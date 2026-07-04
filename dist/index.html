@@ -57,13 +57,28 @@
             box-sizing: border-box;
         }
 
-        header {
-            text-align: center;
+        /* Hero Split Layout */
+        .hero-container {
+            display: grid;
+            grid-template-columns: 1.2fr 0.8fr;
+            gap: 40px;
+            align-items: center;
             margin-bottom: 40px;
             margin-top: 20px;
         }
 
-        h1 {
+        .hero-left {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .hero-left header {
+            text-align: left;
+            margin: 0;
+        }
+
+        .hero-left h1 {
             font-size: 3.5rem;
             margin: 0 0 16px 0;
             background: linear-gradient(135deg, #ffffff, var(--accent-color));
@@ -73,21 +88,111 @@
             letter-spacing: -0.03em;
         }
 
-        p.subtitle {
+        .hero-left p.subtitle {
             color: var(--text-muted);
             font-size: 1.2rem;
-            max-width: 600px;
-            margin: 0 auto;
             line-height: 1.6;
+            text-align: left;
+            margin: 0;
+            max-width: 100%;
         }
 
-        .input-card {
+        .hero-left .input-card {
             background-color: var(--card-bg);
             border: 1px solid var(--border-color);
             border-radius: 16px;
             padding: 24px;
             box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
-            margin-bottom: 40px;
+            margin-bottom: 0;
+        }
+
+        .hero-right {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Browser Mockup Window */
+        .browser-mockup {
+            width: 100%;
+            background-color: #111827;
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.4), 0 10px 10px -5px rgba(0, 0, 0, 0.4);
+            overflow: hidden;
+        }
+
+        .browser-header {
+            display: flex;
+            align-items: center;
+            padding: 10px 16px;
+            background-color: #1f2937;
+            border-bottom: 1px solid var(--border-color);
+            gap: 8px;
+        }
+
+        .browser-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: #374151;
+        }
+
+        .browser-dot.red { background-color: #ef4444; }
+        .browser-dot.yellow { background-color: #eab308; }
+        .browser-dot.green { background-color: #22c55e; }
+
+        .browser-address {
+            flex-grow: 1;
+            background-color: #111827;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            padding: 4px 12px;
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            text-align: left;
+            margin-left: 12px;
+            font-family: monospace;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .browser-body {
+            position: relative;
+            width: 100%;
+            padding-top: 56.25%; /* 16:9 Aspect Ratio */
+            background-color: #0b0f19;
+        }
+
+        .browser-body img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border: none;
+        }
+
+        @media (max-width: 768px) {
+            .hero-container {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+            .hero-left h1 {
+                font-size: 2.8rem;
+                text-align: center;
+            }
+            .hero-left p.subtitle {
+                text-align: center;
+            }
+            .hero-left header {
+                text-align: center;
+            }
+            .hero-right {
+                display: none; /* Hide mockup on mobile for faster loading */
+            }
         }
 
         textarea {
@@ -333,14 +438,31 @@
     </nav>
 
     <main>
-        <header>
-            <h1>Weird Font Generator</h1>
-            <p class="subtitle">Generate 23+ custom aesthetic Unicode fancy fonts for Instagram bios, Discord profiles, and gaming tags instantly.</p>
-        </header>
+        <div class="hero-container">
+            <div class="hero-left">
+                <header>
+                    <h1>Weird Font Generator</h1>
+                    <p class="subtitle">Generate 23+ custom aesthetic Unicode fancy fonts for Instagram bios, Discord profiles, and gaming tags instantly.</p>
+                </header>
 
-        <section class="input-card">
-            <textarea id="input-text" placeholder="Type or paste your text here..." autofocus>Hello World</textarea>
-        </section>
+                <section class="input-card">
+                    <textarea id="input-text" placeholder="Type or paste your text here..." autofocus>Hello World</textarea>
+                </section>
+            </div>
+            <div class="hero-right">
+                <div class="browser-mockup">
+                    <div class="browser-header">
+                        <div class="browser-dot red"></div>
+                        <div class="browser-dot yellow"></div>
+                        <div class="browser-dot green"></div>
+                        <div class="browser-address">weirdfontgenerator.com/styles/cursive-font-generator.html</div>
+                    </div>
+                    <div class="browser-body">
+                        <img src="./assets/demo.webp" alt="Fancy Font Copy Paste Demo" />
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <section>
             <div class="grid-header">Available Styles (Click title to customize or export PNG)</div>
