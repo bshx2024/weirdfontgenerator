@@ -1,9 +1,17 @@
 import os
 import re
+import json
 from pypdf import PdfReader # not needed here, but just in case
 
 dist_dir = r"E:\kaifa\weirdfontgenerator\dist\styles"
 homepage_path = r"E:\kaifa\weirdfontgenerator\dist\index.html"
+db_path = r"E:\kaifa\weirdfontgenerator\styles_db.json"
+
+# Load database and count active styles
+with open(db_path, "r", encoding="utf-8") as f:
+    styles_data = json.load(f)
+active_styles = [item for item in styles_data if item.get("status") == "active"]
+expected_count = len(active_styles)
 
 # Regex patterns for basic HTML auditing
 title_pat = re.compile(r"<title>(.*?)</title>", re.IGNORECASE | re.DOTALL)
@@ -32,15 +40,15 @@ if os.path.exists(homepage_path):
 else:
     errors.append("Homepage index.html is missing!")
 
-# Check 22 Sub-pages
+# Check Active Sub-pages
 if not os.path.exists(dist_dir):
     errors.append("Styles sub-directory is missing!")
 else:
     files = [f for f in os.listdir(dist_dir) if f.endswith(".html")]
     print(f"\n🔍 Found {len(files)} sub-pages in dist/styles/")
     
-    if len(files) != 22:
-        errors.append(f"Expected 22 pages, found {len(files)}")
+    if len(files) != expected_count:
+        errors.append(f"Expected {expected_count} active pages, found {len(files)}")
 
     for file in files:
         path = os.path.join(dist_dir, file)
@@ -95,5 +103,5 @@ if errors:
     for err in errors:
         print(f"  - {err}")
 else:
-    print("🏆 AUDIT PASSED: All 22 pages and index.html are perfectly formatted, unique, and contain core pSEO and canvas components!")
+    print(f"🏆 AUDIT PASSED: All {expected_count} active pages and index.html are perfectly formatted, unique, and contain core pSEO and canvas components!")
 print("=================================")

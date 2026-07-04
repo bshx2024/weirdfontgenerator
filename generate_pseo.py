@@ -11,7 +11,10 @@ os.makedirs(styles_dir, exist_ok=True)
 
 # Load styles database
 with open(db_path, "r", encoding="utf-8") as f:
-    styles_data = json.load(f)
+    all_styles_data = json.load(f)
+
+# Filter active styles to support progressive rollout phases
+styles_data = [item for item in all_styles_data if item.get("status") == "active"]
 
 def get_reviews_html(item):
     keyword = item["keyword"]
@@ -602,7 +605,7 @@ page_template = """<!DOCTYPE html>
         <div class="logo">
             <a href="../index.html">🌀 WeirdFont<span>Generator</span></a>
         </div>
-        <a href="../index.html">← All 22 Styles</a>
+        <a href="../index.html">← All {{ACTIVE_STYLES_COUNT}} Styles</a>
     </nav>
 
     <main>
@@ -705,8 +708,8 @@ page_template = """<!DOCTYPE html>
         <!-- CTA Banner -->
         <section class="cta-banner">
             <h3>Need a different lettering style?</h3>
-            <p>We support 22+ premium typography conversion styles for Discord, Instagram, and design mockups.</p>
-            <a href="../index.html" class="btn-cta">Explore All 22 Style Generators</a>
+            <p>We support {{ACTIVE_STYLES_COUNT}}+ premium typography conversion styles for Discord, Instagram, and design mockups.</p>
+            <a href="../index.html" class="btn-cta">Explore All {{ACTIVE_STYLES_COUNT}} Style Generators</a>
         </section>
 
         <!-- Description Section -->
@@ -727,7 +730,7 @@ page_template = """<!DOCTYPE html>
 
     <footer>
         <div style="margin-bottom: 15px; display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
-            <a href="../index.html" style="color: var(--text-muted); text-decoration: none; font-weight: 500;">🌀 All 22 Fonts</a>
+            <a href="../index.html" style="color: var(--text-muted); text-decoration: none; font-weight: 500;">🌀 All {{ACTIVE_STYLES_COUNT}} Fonts</a>
             <a href="../articles/unicode-compatibility-guide.html" style="color: var(--text-muted); text-decoration: none; font-weight: 500;">📖 Unicode Tofu Fix Guide</a>
             <a href="../articles/instagram-bio-aesthetic-guide.html" style="color: var(--text-muted); text-decoration: none; font-weight: 500;">✨ Aesthetic Bio Design Manual</a>
         </div>
@@ -1070,8 +1073,8 @@ hub_template = """<!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weird Font Generator | 22+ Free Online Font Generators (𝓬𝓸𝓹𝔂 & 𝓹𝓪𝓼𝓽𝓮)</title>
-    <meta name="description" content="Generate 22+ custom aesthetic fancy text fonts with our free client-side font generator. Copy and paste cool symbols for Instagram, Discord, and TikTok.">
+    <title>Weird Font Generator | {{ACTIVE_STYLES_COUNT}}+ Free Online Font Generators (𝓬𝓸𝓹𝔂 & 𝓹𝓪𝓼𝓽𝓮)</title>
+    <meta name="description" content="Generate {{ACTIVE_STYLES_COUNT}}+ custom aesthetic fancy text fonts with our free client-side font generator. Copy and paste cool symbols for Instagram, Discord, and TikTok.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -1402,7 +1405,7 @@ hub_template = """<!DOCTYPE html>
     <main>
         <header>
             <h1>Weird Font Generator</h1>
-            <p class="subtitle">Generate 22+ custom aesthetic Unicode fancy fonts for Instagram bios, Discord profiles, and gaming tags instantly.</p>
+            <p class="subtitle">Generate {{ACTIVE_STYLES_COUNT}}+ custom aesthetic Unicode fancy fonts for Instagram bios, Discord profiles, and gaming tags instantly.</p>
         </header>
 
         <section class="input-card">
@@ -1621,6 +1624,7 @@ for item in styles_data:
 
     # Merge placeholders
     html_content = page_template
+    html_content = html_content.replace("{{ACTIVE_STYLES_COUNT}}", str(len(styles_data)))
     html_content = html_content.replace("{{TITLE}}", item["title"])
     html_content = html_content.replace("{{DESCRIPTION}}", item["description"])
     html_content = html_content.replace("{{H1}}", item["h1"])
@@ -1720,6 +1724,7 @@ for item in styles_data:
 
 homepage_content = hub_template.replace("{{STYLES_LIST_JSON}}", json.dumps(compact_styles_list, ensure_ascii=False))
 homepage_content = homepage_content.replace("{{CARDS_HTML}}", cards_html)
+homepage_content = homepage_content.replace("{{ACTIVE_STYLES_COUNT}}", str(len(styles_data)))
 homepage_path = os.path.join(output_dir, "index.html")
 
 with open(homepage_path, "w", encoding="utf-8") as out_h:

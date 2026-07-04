@@ -1,5 +1,95 @@
 [
   {
+    "slug": "cursive-font-generator",
+    "keyword": "cursive generator",
+    "title": "Cursive Font Generator (𝓬𝓸𝓹𝔂 & 𝓅𝒶𝓈𝓉𝑒) - Elegant Script Maker",
+    "description": "Convert plain text to elegant cursive & script symbols instantly. Free, ad-free copy and paste cursive text generator for Instagram, Discord, and TikTok.",
+    "h1": "Cursive Font Generator",
+    "style_description": "Our Cursive Font Generator translates standard Latin characters into mathematical script symbols defined in the Unicode standard. This creates a beautiful, flowing hand-written signature style that copies and pastes natively into bios, posts, and chats without requiring external fonts.",
+    "cpc": 0.35,
+    "kd": 45,
+    "primary_color": "#38bdf8",
+    "bg_gradient": "linear-gradient(135deg, #0b0f19, #0c4a6e)",
+    "algorithm_type": "mapping",
+    "unicode_map": {
+      "a": "𝒶",
+      "b": "𝒷",
+      "c": "𝒸",
+      "d": "𝒹",
+      "e": "𝑒",
+      "f": "𝒻",
+      "g": "𝑔",
+      "h": "𝒽",
+      "i": "𝒾",
+      "j": "𝒿",
+      "k": "𝓀",
+      "l": "𝓁",
+      "m": "𝓂",
+      "n": "𝓃",
+      "o": "𝑜",
+      "p": "𝓅",
+      "q": "𝓆",
+      "r": "𝓇",
+      "s": "𝓈",
+      "t": "𝓉",
+      "u": "𝓊",
+      "v": "𝓋",
+      "w": "𝓌",
+      "x": "𝓍",
+      "y": "𝓎",
+      "z": "𝓏",
+      "A": "𝒜",
+      "B": "ℬ",
+      "C": "𝒞",
+      "D": "𝒟",
+      "E": "ℰ",
+      "F": "ℱ",
+      "G": "𝒢",
+      "H": "ℋ",
+      "I": "ℐ",
+      "J": "𝒥",
+      "K": "𝒦",
+      "L": "ℒ",
+      "M": "ℳ",
+      "N": "𝒩",
+      "O": "𝒪",
+      "P": "𝒫",
+      "Q": "𝒬",
+      "R": "ℛ",
+      "S": "𝒮",
+      "T": "𝒯",
+      "U": "𝒰",
+      "V": "𝒱",
+      "W": "𝒲",
+      "X": "𝒳",
+      "Y": "𝒴",
+      "Z": "𝒵",
+      "0": "0",
+      "1": "1",
+      "2": "2",
+      "3": "3",
+      "4": "4",
+      "5": "5",
+      "6": "6",
+      "7": "7",
+      "8": "8",
+      "9": "9"
+    },
+    "canvas_font": "Great Vibes, Brush Script MT, cursive",
+    "canvas_bg": "#0f172a",
+    "faqs": [
+      {
+        "q": "How does the cursive text copy-paste feature work?",
+        "a": "It maps your text to standard Unicode script symbols (mathematical script blocks). When copy-pasted, social platforms display these characters as elegant handwriting because they are pre-defined in the universal Unicode standard."
+      },
+      {
+        "q": "Will cursive text work on all devices?",
+        "a": "It renders perfectly on all iOS, macOS, Windows 10/11, and modern Android devices. Very old devices or system versions might show box fallbacks."
+      }
+    ],
+    "status": "active"
+  },
+  {
     "slug": "weird-font-generator",
     "keyword": "weird font generator",
     "title": "Weird Font Generator (𝖼𝗈𝗉𝗒 𝖺𝗇𝖽 𝗉𝖺𝗌𝑡𝖾) - Ad-Free Tool",
@@ -23,7 +113,8 @@
         "q": "Is the weird text compatible with Discord and Steam?",
         "a": "Yes! Unicode glitch symbols are fully compatible, though some mobile apps may clip very tall marks."
       }
-    ]
+    ],
+    "status": "active"
   },
   {
     "slug": "freaky-font-generator",
@@ -102,7 +193,8 @@
         "q": "Can I use freaky text in multiplayer games?",
         "a": "Yes, copy and paste it into Steam, Roblox, or Discord nicknames easily."
       }
-    ]
+    ],
+    "status": "active"
   },
   {
     "slug": "bubble-font-generator",
@@ -191,7 +283,8 @@
         "q": "Does the copy-paste bubble font support numbers?",
         "a": "Yes, standard numbers 0-9 are fully supported and mapped to circled numbers."
       }
-    ]
+    ],
+    "status": "active"
   },
   {
     "slug": "metal-font-generator",
@@ -270,7 +363,8 @@
         "q": "Does this work for gothic and punk themes?",
         "a": "Yes, the Fraktur Unicode mapping is the standard style for gothic, punk, and metal aesthetics."
       }
-    ]
+    ],
+    "status": "active"
   },
   {
     "slug": "death-metal-font-generator",
@@ -349,7 +443,8 @@
         "q": "Why is the KD for death metal so low?",
         "a": "It is a highly specific niche and many older sites fail to provide high-quality graphic downloads, which our canvas exporter solves."
       }
-    ]
+    ],
+    "status": "active"
   },
   {
     "slug": "chicano-font-generator",
@@ -428,7 +523,8 @@
         "q": "Can I adjust the script size for exporting?",
         "a": "Yes, the canvas generator has custom size controls for optimal image export."
       }
-    ]
+    ],
+    "status": "active"
   },
   {
     "slug": "disney-font-generator",
@@ -503,7 +599,8 @@
         "q": "How do I get the exact Disney look?",
         "a": "Use the image exporter below, which loads a specialized cursive font to render the iconic looping lettering style."
       }
-    ]
+    ],
+    "status": "active"
   },
   {
     "slug": "upside-down-font-generator",
@@ -588,7 +685,8 @@
         "q": "How does upside-down text work?",
         "a": "It reverses the character order and maps each character to its closest rotated equivalent in the Unicode table."
       }
-    ]
+    ],
+    "status": "active"
   },
   {
     "slug": "brat-font-generator",
@@ -673,7 +771,8 @@
         "q": "What is the exact Brat background color?",
         "a": "The iconic hex code is close to #8adf2a, which is preloaded in our canvas image exporter."
       }
-    ]
+    ],
+    "status": "active"
   },
   {
     "slug": "pokemon-font-generator",
@@ -748,7 +847,8 @@
         "q": "Can I generate the signature yellow text with blue outlines?",
         "a": "Yes! The Canvas exporter renders yellow text with a heavy blue outline stroke to match the classic game logo style."
       }
-    ]
+    ],
+    "status": "active"
   },
   {
     "slug": "star-wars-font-generator",
@@ -823,7 +923,8 @@
         "q": "How can I copy sci-fi looking letters?",
         "a": "We provide a monospace and squared Unicode mapping which gives your plain text a structured, futuristic appearance."
       }
-    ]
+    ],
+    "status": "active"
   },
   {
     "slug": "barbie-font-generator",
@@ -898,7 +999,8 @@
         "q": "What pink theme color does this use?",
         "a": "The canvas exporter uses the signature bright pink (#db2777) with white outlines for the ultimate aesthetic look."
       }
-    ]
+    ],
+    "status": "active"
   },
   {
     "slug": "comic-sans-font-generator",
@@ -973,7 +1075,8 @@
         "q": "Why does Comic Sans have a high CPC?",
         "a": "It is widely used in school projects, casual signs, and meme sites, creating solid commercial utility."
       }
-    ]
+    ],
+    "status": "active"
   },
   {
     "slug": "fb-font-generator",
@@ -1048,7 +1151,8 @@
         "q": "Will these fonts look weird on the Facebook mobile app?",
         "a": "No, they utilize universal Unicode characters, ensuring they display cleanly on both iOS and Android FB apps."
       }
-    ]
+    ],
+    "status": "active"
   },
   {
     "slug": "fraktur-font-generator-numbers",
@@ -1123,7 +1227,8 @@
         "q": "Can I convert letters here too?",
         "a": "Yes, standard letters will map to classic Fraktur blackletter, but this page is optimized to showcase Fraktur gothic numbers."
       }
-    ]
+    ],
+    "status": "active"
   },
   {
     "slug": "impact-font-generator",
@@ -1198,7 +1303,8 @@
         "q": "How do I make a meme image here?",
         "a": "Type your text, click 'Customize', set the fill to white, add a thick black stroke, and export."
       }
-    ]
+    ],
+    "status": "active"
   },
   {
     "slug": "san-francisco-font-text-generator",
@@ -1273,7 +1379,8 @@
         "q": "What is the key feature of SF font?",
         "a": "It has dynamic tracking and optical sizes, optimizing legibility at any screen scale."
       }
-    ]
+    ],
+    "status": "active"
   },
   {
     "slug": "times-new-roman-font-generator",
@@ -1348,7 +1455,8 @@
         "q": "Is this useful for academic memes?",
         "a": "Yes! Replicating essay formatting is a popular meme format, and our canvas exporter makes it easy."
       }
-    ]
+    ],
+    "status": "active"
   },
   {
     "slug": "bluey-font-generator",
@@ -1423,7 +1531,8 @@
         "q": "Can I generate the two-tone blue cartoon effect?",
         "a": "Yes! The canvas renders a cute rounded letter style with light blue fills and dark blue outlines."
       }
-    ]
+    ],
+    "status": "active"
   },
   {
     "slug": "greek-font-generator",
@@ -1498,7 +1607,8 @@
         "q": "Are these real Greek characters?",
         "a": "Yes! They are native characters from the Greek block of the Unicode standard, ensuring they display on all devices."
       }
-    ]
+    ],
+    "status": "active"
   },
   {
     "slug": "harry-potter-font-generator",
@@ -1573,7 +1683,8 @@
         "q": "Can I generate lightning-bolt style text here?",
         "a": "Yes, our Canvas exporter uses gothic-serif fonts to simulate the magical, lightning-inspired letter styling."
       }
-    ]
+    ],
+    "status": "active"
   },
   {
     "slug": "heart-font-generator",
@@ -1595,6 +1706,7 @@
         "q": "How does the heart generator work?",
         "a": "It inserts small heart unicode glyphs between each character or wraps them, adding a cute love aesthetic."
       }
-    ]
+    ],
+    "status": "active"
   }
 ]
