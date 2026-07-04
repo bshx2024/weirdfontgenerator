@@ -1105,10 +1105,24 @@ hub_template = """<!DOCTYPE html>
             align-items: center;
         }
 
+        /* Header Navigation */
+        .site-header {
+            position: sticky;
+            top: 0;
+            width: 100%;
+            background-color: rgba(11, 15, 25, 0.75);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            display: flex;
+            justify-content: center;
+            z-index: 1000;
+        }
+
         nav {
             width: 100%;
-            max-width: 1100px;
-            padding: 20px;
+            max-width: 1000px;
+            padding: 16px 20px;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -1125,6 +1139,19 @@ hub_template = """<!DOCTYPE html>
             color: var(--accent-color);
         }
 
+        .ad-tag {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            font-weight: 600;
+            background-color: rgba(168, 85, 247, 0.1);
+            color: var(--accent-color);
+            padding: 4px 12px;
+            border-radius: 9999px;
+            border: 1px solid rgba(168, 85, 247, 0.2);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
         main {
             width: 100%;
             max-width: 1000px;
@@ -1138,7 +1165,7 @@ hub_template = """<!DOCTYPE html>
             grid-template-columns: 1.2fr 0.8fr;
             gap: 40px;
             align-items: center;
-            margin-bottom: 40px;
+            margin-bottom: 60px;
             margin-top: 20px;
         }
 
@@ -1154,7 +1181,8 @@ hub_template = """<!DOCTYPE html>
         }
 
         .hero-left h1 {
-            font-size: 3.5rem;
+            font-size: 3rem;
+            line-height: 1.2;
             margin: 0 0 16px 0;
             background: linear-gradient(135deg, #ffffff, var(--accent-color));
             -webkit-background-clip: text;
@@ -1165,10 +1193,10 @@ hub_template = """<!DOCTYPE html>
 
         .hero-left p.subtitle {
             color: var(--text-muted);
-            font-size: 1.2rem;
+            font-size: 1.1rem;
             line-height: 1.6;
             text-align: left;
-            margin: 0;
+            margin: 0 0 10px 0;
             max-width: 100%;
         }
 
@@ -1195,6 +1223,13 @@ hub_template = """<!DOCTYPE html>
             border-radius: 12px;
             box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.4), 0 10px 10px -5px rgba(0, 0, 0, 0.4);
             overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+        }
+
+        .browser-mockup:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 25px 30px -5px rgba(168, 85, 247, 0.15), 0 15px 15px -5px rgba(0, 0, 0, 0.4);
+            border-color: var(--accent-color);
         }
 
         .browser-header {
@@ -1507,10 +1542,12 @@ hub_template = """<!DOCTYPE html>
     </style>
 </head>
 <body>
-    <nav>
-        <div class="logo">🌀 WeirdFont<span>Generator</span></div>
-        <div>Ad-Free Utility</div>
-    </nav>
+    <header class="site-header">
+        <nav>
+            <div class="logo">🌀 WeirdFont<span>Generator</span></div>
+            <div class="ad-tag">Ad-Free Utility</div>
+        </nav>
+    </header>
 
     <main>
         <div class="hero-container">
